@@ -1683,7 +1683,7 @@
 	)
 	(text "DIMMER 555"
 		(exclude_from_sim no)
-		(at 151.384 42.164 0)
+		(at 151.13 45.212 0)
 		(effects
 			(font
 				(size 8 8)
