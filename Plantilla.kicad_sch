@@ -1704,12 +1704,6 @@
 		(uuid "45a81698-0365-406f-8c1e-65b9e0074559")
 	)
 	(junction
-		(at 120.65 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c8dac79-b0f2-4e77-8653-f1c7bae2cede")
-	)
-	(junction
 		(at 140.97 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1734,10 +1728,10 @@
 		(uuid "9c519035-5c59-4e69-96c3-16ea50db4c39")
 	)
 	(junction
-		(at 102.87 120.65)
+		(at 107.95 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a93c16e0-0ee1-4b84-bf10-04cbc6e6d710")
+		(uuid "c5b72eef-777f-4a4c-9713-7fe5e3d4b9ad")
 	)
 	(junction
 		(at 113.03 143.51)
@@ -1779,16 +1773,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 120.65) (xy 99.06 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e9afe39-8644-4179-8cf1-26ceca8d2ac9")
-	)
-	(wire
-		(pts
 			(xy 148.59 82.55) (xy 160.02 82.55)
 		)
 		(stroke
@@ -1819,6 +1803,26 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 120.65) (xy 128.27 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "217eeebc-c5d6-49a4-a566-895320f40883")
+	)
+	(wire
+		(pts
+			(xy 111.76 99.06) (xy 119.38 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22149897-cdc7-4295-b7ef-6180cd261445")
+	)
+	(wire
+		(pts
 			(xy 201.93 118.11) (xy 219.71 118.11)
 		)
 		(stroke
@@ -1839,7 +1843,17 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 120.65) (xy 120.65 114.3)
+			(xy 99.06 99.06) (xy 104.14 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29c9d6a5-713f-4301-b9c4-dcf5b206134d")
+	)
+	(wire
+		(pts
+			(xy 107.95 120.65) (xy 107.95 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1856,16 +1870,6 @@
 			(type default)
 		)
 		(uuid "4a1283b0-cb17-4c99-bcc7-e68f26f7b5db")
-	)
-	(wire
-		(pts
-			(xy 120.65 120.65) (xy 102.87 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "500b1a3b-2416-49a7-853b-f838fe243349")
 	)
 	(wire
 		(pts
@@ -1886,16 +1890,6 @@
 			(type default)
 		)
 		(uuid "57fb73d8-1e39-4950-8d5c-1bb034900094")
-	)
-	(wire
-		(pts
-			(xy 116.84 96.52) (xy 120.65 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66ae4a77-f758-4013-b47e-9d91becb62d5")
 	)
 	(wire
 		(pts
@@ -1959,7 +1953,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 96.52) (xy 120.65 106.68)
+			(xy 107.95 102.87) (xy 107.95 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2029,23 +2023,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 114.3) (xy 102.87 120.65)
+			(xy 99.06 110.49) (xy 99.06 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9d389c97-824c-4a11-a5cb-baf46eac8991")
-	)
-	(wire
-		(pts
-			(xy 113.03 88.9) (xy 113.03 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1c905ca-435a-4360-8575-412b61669039")
 	)
 	(wire
 		(pts
@@ -2079,23 +2063,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 96.52) (xy 102.87 106.68)
+			(xy 99.06 99.06) (xy 99.06 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bdaec75e-2eee-4a80-984a-81f4838ff963")
-	)
-	(wire
-		(pts
-			(xy 128.27 120.65) (xy 120.65 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4dcb128-0962-41ff-9623-775c964c97ef")
 	)
 	(wire
 		(pts
@@ -2186,16 +2160,6 @@
 			(type default)
 		)
 		(uuid "f0cc9041-3f73-4d6d-8133-f2efad4167a3")
-	)
-	(wire
-		(pts
-			(xy 109.22 96.52) (xy 102.87 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fde974f0-153e-45dc-88d2-aa1fadb93eae")
 	)
 	(global_label "OUT"
 		(shape input)
@@ -2367,7 +2331,7 @@
 	)
 	(global_label "OUT"
 		(shape input)
-		(at 113.03 88.9 90)
+		(at 119.38 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2377,7 +2341,7 @@
 		)
 		(uuid "99d6fbae-4126-4dea-acaf-0f24babc5662")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 82.2862 90)
+			(at 125.9938 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2650,7 +2614,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 113.03 96.52 90)
+		(at 107.95 99.06 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2660,7 +2624,7 @@
 		(dnp no)
 		(uuid "174de945-6146-4a99-b355-4b4eee178366")
 		(property "Reference" "R3"
-			(at 113.03 99.314 90)
+			(at 107.95 96.266 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2670,7 +2634,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 113.284 96.52 90)
+			(at 108.204 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2680,7 +2644,7 @@
 			)
 		)
 		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_3314G_Vertical"
-			(at 113.03 96.52 0)
+			(at 107.95 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2691,7 +2655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 96.52 0)
+			(at 107.95 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2702,7 +2666,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 113.03 96.52 0)
+			(at 107.95 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3063,7 +3027,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Filled")
-		(at 102.87 110.49 90)
+		(at 99.06 106.68 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3071,10 +3035,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7cefe208-9042-4d75-bf00-cab1baf3e8a3")
 		(property "Reference" "D1"
-			(at 105.41 109.2199 90)
+			(at 93.98 104.902 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3085,7 +3048,7 @@
 			)
 		)
 		(property "Value" "IN4148"
-			(at 105.41 111.7599 90)
+			(at 89.662 107.188 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3096,7 +3059,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-128"
-			(at 102.87 110.49 0)
+			(at 99.06 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3107,7 +3070,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 110.49 0)
+			(at 99.06 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3118,7 +3081,7 @@
 			)
 		)
 		(property "Description" "Diode, filled shape"
-			(at 102.87 110.49 0)
+			(at 99.06 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3129,7 +3092,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 102.87 110.49 0)
+			(at 99.06 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3140,7 +3103,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 102.87 110.49 0)
+			(at 99.06 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3540,7 +3503,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Filled")
-		(at 120.65 110.49 270)
+		(at 107.95 113.03 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3551,7 +3514,7 @@
 		(fields_autoplaced yes)
 		(uuid "f344e348-cccd-4cd2-8ed6-f6f8ce1e4aab")
 		(property "Reference" "D2"
-			(at 123.19 109.2199 90)
+			(at 110.49 111.7599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3562,7 +3525,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 123.19 111.7599 90)
+			(at 110.49 114.2999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3573,7 +3536,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-128"
-			(at 120.65 110.49 0)
+			(at 107.95 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3584,7 +3547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 110.49 0)
+			(at 107.95 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3595,7 +3558,7 @@
 			)
 		)
 		(property "Description" "Diode, filled shape"
-			(at 120.65 110.49 0)
+			(at 107.95 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3606,7 +3569,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 120.65 110.49 0)
+			(at 107.95 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3617,7 +3580,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 120.65 110.49 0)
+			(at 107.95 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
