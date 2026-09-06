@@ -1681,7 +1681,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "DIMMER 555"
+	(text "DIMMER_555"
 		(exclude_from_sim no)
 		(at 151.384 42.164 0)
 		(effects
