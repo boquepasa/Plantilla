@@ -5337,7 +5337,7 @@
 	(segment
 		(start 150.318398 103.487389)
 		(end 163.190898 103.487389)
-		(width 0.4)
+		(width 0.6)
 		(layer "F.Cu")
 		(net "LED")
 		(uuid "8297eb13-11b3-44bf-be55-0f772c6ce8a0")
