@@ -1681,7 +1681,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "DIMMER 555"
+	(text "DIMMER 777"
 		(exclude_from_sim no)
 		(at 151.13 45.212 0)
 		(effects
@@ -2753,7 +2753,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "20K"
 			(at 176.53 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
