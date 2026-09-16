@@ -1681,7 +1681,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "DIMMER 555"
+	(text "DIMMER 5"
 		(exclude_from_sim no)
 		(at 151.13 45.212 0)
 		(effects
@@ -2473,7 +2473,7 @@
 			(justify left bottom)
 		)
 		(uuid "19c52914-ec9e-4cad-b5cb-01480d4af3a2")
-		(property "Netclass" "GND"
+		(property "Clase de red" "GND"
 			(at 168.3385 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2508,7 +2508,7 @@
 			(justify left bottom)
 		)
 		(uuid "6db0d1fe-299a-40fe-bcf9-b50a1b7f79bf")
-		(property "Netclass" "VCC"
+		(property "Clase de red" "VCC"
 			(at 141.6685 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2543,7 +2543,7 @@
 			(justify right bottom)
 		)
 		(uuid "d78ab653-3784-4ed8-a1c2-8eb3a32f625c")
-		(property "Netclass" "SIGNAL"
+		(property "Clase de red" "SIGNAL"
 			(at 181.0385 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
