@@ -37,6 +37,8 @@ fp-info-cache
 *.xml
 *.csv
 
-# Archivos de salida de fabricación (Gerbers deben generarse frescos, no versionarse)
+# Archivos de salida de fabricaciï¿½n (Gerbers deben generarse frescos, no versionarse)
 /Gerbers/
 /Produccion/
+/Plantilla
+/.history
