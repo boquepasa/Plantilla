@@ -2163,7 +2163,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 3.6 0 180)
+			(at 4.412611 0 180)
 			(layer "F.Fab")
 			(uuid "1335bbc8-0fb6-41b0-af8f-dbf84deec722")
 			(effects
