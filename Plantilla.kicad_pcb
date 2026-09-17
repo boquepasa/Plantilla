@@ -4958,6 +4958,18 @@
 		(layer "Edge.Cuts")
 		(uuid "0c62b839-c2f4-4796-a627-0ba7a9240647")
 	)
+	(gr_text "Izan - sesión 1"
+		(at 136.5 92 0)
+		(layer "F.SilkS")
+		(uuid "1e25f8ce-4e61-4b79-a450-b5bf05a5ec52")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 124.178398 108.887389)
 		(end 128.918398 104.147389)
