@@ -1704,6 +1704,18 @@
 		(uuid "45a81698-0365-406f-8c1e-65b9e0074559")
 	)
 	(junction
+		(at 120.65 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d21903a-bdba-4ff5-ae5e-90983d29edfb")
+	)
+	(junction
+		(at 120.65 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d6f2e09-a13b-4c79-8253-3aa554c26274")
+	)
+	(junction
 		(at 120.65 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1819,6 +1831,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 105.41) (xy 125.73 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "211f55d3-69c7-4125-9eb0-9d2e5b1d886f")
+	)
+	(wire
+		(pts
 			(xy 201.93 118.11) (xy 219.71 118.11)
 		)
 		(stroke
@@ -1846,6 +1868,16 @@
 			(type default)
 		)
 		(uuid "2ed8c51b-092e-451d-adb2-b8122641e56e")
+	)
+	(wire
+		(pts
+			(xy 120.65 97.79) (xy 125.73 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3155ca28-c585-428d-ad9d-b6ee16ef825a")
 	)
 	(wire
 		(pts
@@ -1959,7 +1991,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 96.52) (xy 120.65 106.68)
+			(xy 120.65 96.52) (xy 120.65 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2016,6 +2048,16 @@
 			(type default)
 		)
 		(uuid "8e065276-7264-40a8-8753-9c468a981c0c")
+	)
+	(wire
+		(pts
+			(xy 120.65 97.79) (xy 120.65 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a70f2b-871c-42a0-8323-3fdfb4a162cc")
 	)
 	(wire
 		(pts
@@ -2136,6 +2178,16 @@
 			(type default)
 		)
 		(uuid "d4e879b7-a598-46ca-8f07-08dd8d9175f1")
+	)
+	(wire
+		(pts
+			(xy 125.73 106.68) (xy 120.65 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d55863e6-529f-4ef0-a1b6-d1c0f6cd373c")
 	)
 	(wire
 		(pts
@@ -2889,6 +2941,88 @@
 			(project "Plantilla"
 				(path "/6a55d53f-e3c4-4300-a1b7-a7f79b9491fb"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 125.73 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "404aa1f9-0d17-45a2-a7c4-3446061b8c81")
+		(property "Reference" "R4"
+			(at 128.27 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 128.27 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.952 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 125.73 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "691785a0-dc3c-4c5d-820d-6099a4fab18b")
+		)
+		(pin "1"
+			(uuid "85d244cd-a62b-48cf-bc4a-d771d9980adf")
+		)
+		(instances
+			(project "Plantilla"
+				(path "/6a55d53f-e3c4-4300-a1b7-a7f79b9491fb"
+					(reference "R4")
 					(unit 1)
 				)
 			)
