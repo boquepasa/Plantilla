@@ -1695,6 +1695,12 @@
 		(at 201.93 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
+		(uuid "233e8105-2649-44d1-96c7-b238f71e5c7a")
+	)
+	(junction
+		(at 201.93 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
 		(uuid "26da1699-c768-4466-a5b8-33988efc0526")
 	)
 	(junction
@@ -1738,6 +1744,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a93c16e0-0ee1-4b84-bf10-04cbc6e6d710")
+	)
+	(junction
+		(at 201.93 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dca75260-e52c-45a6-8dae-18af65cb1c0a")
 	)
 	(junction
 		(at 113.03 143.51)
@@ -1799,7 +1811,17 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 105.41) (xy 201.93 109.22)
+			(xy 209.55 116.84) (xy 209.55 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e10632-7647-41b2-b7c1-34483485e7ed")
+	)
+	(wire
+		(pts
+			(xy 201.93 105.41) (xy 201.93 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1819,7 +1841,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 118.11) (xy 219.71 118.11)
+			(xy 201.93 120.65) (xy 220.98 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1846,6 +1868,16 @@
 			(type default)
 		)
 		(uuid "2ed8c51b-092e-451d-adb2-b8122641e56e")
+	)
+	(wire
+		(pts
+			(xy 209.55 118.11) (xy 201.93 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f3741fc-8b2d-466f-9056-463a66bd9a72")
 	)
 	(wire
 		(pts
@@ -1876,6 +1908,16 @@
 			(type default)
 		)
 		(uuid "513f0a20-74cc-4e16-b865-e610b7d12cd5")
+	)
+	(wire
+		(pts
+			(xy 209.55 107.95) (xy 209.55 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55e05fea-b250-4701-9182-fcc8daaf1090")
 	)
 	(wire
 		(pts
@@ -1989,6 +2031,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 118.11) (xy 201.93 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8345514b-692f-4f3a-a4e1-5975151bc92e")
+	)
+	(wire
+		(pts
 			(xy 138.43 93.98) (xy 140.97 93.98)
 		)
 		(stroke
@@ -2059,16 +2111,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 116.84) (xy 201.93 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3a58739-3b69-4dec-b1cb-8da0c1e0f7a4")
-	)
-	(wire
-		(pts
 			(xy 153.67 125.73) (xy 173.99 125.73)
 		)
 		(stroke
@@ -2076,6 +2118,16 @@
 			(type default)
 		)
 		(uuid "b9697b2f-caca-4b0a-8c5b-beca6329c57e")
+	)
+	(wire
+		(pts
+			(xy 201.93 109.22) (xy 201.93 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbe94fd8-c828-47a6-94a5-dc8c60f2e9e0")
 	)
 	(wire
 		(pts
@@ -2096,6 +2148,16 @@
 			(type default)
 		)
 		(uuid "c4dcb128-0962-41ff-9623-775c964c97ef")
+	)
+	(wire
+		(pts
+			(xy 201.93 107.95) (xy 209.55 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c89a678e-548d-432a-aa0d-d40489fee42a")
 	)
 	(wire
 		(pts
@@ -2159,7 +2221,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 118.11) (xy 201.93 120.65)
+			(xy 201.93 116.84) (xy 201.93 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2391,7 +2453,7 @@
 	)
 	(global_label "LED"
 		(shape input)
-		(at 219.71 118.11 0)
+		(at 220.98 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2401,7 +2463,7 @@
 		)
 		(uuid "b820d2c8-7ab5-437f-bdc2-1dbf8dc71216")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.1423 118.11 0)
+			(at 227.4123 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3264,6 +3326,110 @@
 			(project "Plantilla"
 				(path "/6a55d53f-e3c4-4300-a1b7-a7f79b9491fb"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Filled")
+		(at 209.55 113.03 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cc6b58f-3160-438e-a027-63a718232f20")
+		(property "Reference" "D4"
+			(at 212.09 111.7599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 212.09 114.2999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
+			(at 209.55 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, filled shape"
+			(at 209.55 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 209.55 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 209.55 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dd507bfc-d212-4ccc-9697-7bae6dec3bed")
+		)
+		(pin "1"
+			(uuid "8b5f6a13-bab4-449f-9d00-c503851513da")
+		)
+		(instances
+			(project "Plantilla"
+				(path "/6a55d53f-e3c4-4300-a1b7-a7f79b9491fb"
+					(reference "D4")
 					(unit 1)
 				)
 			)
